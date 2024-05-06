@@ -1,3 +1,10 @@
+/*********************************************************************
+ * Merges two arrays of objects based on their 'id' field.
+ * If two objects share the same 'id', their properties are merged.
+ * @param {Array} arr1 - The first input array of objects.
+ * @param {Array} arr2 - The second input array of objects.
+ * @return {Array} - The merged array of objects sorted by 'id'.
+ *********************************************************************/
 function mergeArrays(arr1, arr2) {
     const idMap = new Map(); // Map to store merged objects by id
   
@@ -26,7 +33,7 @@ function mergeArrays(arr1, arr2) {
     return joinedArray;
   }
   
-  module.exports=mergeArrays;
-
+  module.exports = {mergeArrays};
+  
 
 

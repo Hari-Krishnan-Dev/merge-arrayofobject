@@ -1,7 +1,7 @@
 {
   "name": "merge-arrayofobject",
   "version": "1.0.0",
-  "description": "this library gives a function is merge array of object . the library can be used with javascript and node.js",
+  "description": "this library gives a function is Merges two arrays of objects based on their 'id' field . the library can be used with javascript and node.js",
   "main": "index.js",
   "dependencies": {
     "abbrev": "^1.1.1",
