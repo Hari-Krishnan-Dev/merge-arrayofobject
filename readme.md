@@ -3,7 +3,7 @@
 # Usage
 1. Install the package (if not already done):
 ```sh
-npm install my-awesome-package
+npm install mergearrayofobjectbyid
 ```
 2. Import the mergeArrays function:
 ```sh
